@@ -10,10 +10,7 @@ interface ButtonProps {
   variant: 'primary' | 'secondary';
 }
 
-interface ButtonGroupProps {
-  buttons: ButtonProps[];
-}
-const Hero: React.FC<ButtonGroupProps> = () => {
+const Hero: React.FC = () => {
   return (
     <section className="bg-background text-foreground h-[500px] flex items-center">
       <div className="max-w-5xl mx-auto px-4 w-full">
