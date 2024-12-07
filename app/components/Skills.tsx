@@ -18,7 +18,7 @@ const Skills: React.FC = () => {
               {skillList.map((skill, index) => (
                 <li
                   key={index}
-                  className="bg-grayLight text-xs text-muted px-3 py-1 rounded-xl inline-flex items-center gap-2"
+                  className="bg-grayLight text-xs font-geist text-muted px-3 py-1 rounded-xl inline-flex items-center gap-2"
                 >
                   {skill}
                 </li>

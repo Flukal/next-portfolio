@@ -49,13 +49,15 @@ const Projects = () => {
       className="bg-background text-foreground py-section py-10"
     >
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl text-accent uppercase font-bold mb-8">
+        <h2 className="text-3xl font-kaushan text-accent font-bold mb-8">
           Repositories
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
           {reposData?.map((repo) => (
             <Card key={repo.id} title={repo.name} className="h-56">
-              <p className="text-muted text-sm mb-8">{repo.description}</p>
+              <p className="text-muted font-sarala text-sm mb-8">
+                {repo.description}
+              </p>
               <div className="flex items-center gap-2 mb-1 mt-auto">
                 {repo.topics.map((topic, index) => (
                   <p

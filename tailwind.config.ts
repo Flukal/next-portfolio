@@ -5,6 +5,7 @@ export default {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './assets/fonts/**/*.{woff,woff2,otf,ttf}',
   ],
   theme: {
     extend: {
@@ -17,6 +18,12 @@ export default {
         grayDark: 'var(--grayDark)',
         grayLight: 'var(--grayLight)',
       },
+    },
+    fontFamily: {
+      kaushan: ['KaushanScript', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+      sarala: ['Sarala', 'sans-serif'],
+      geist: ['Geist', 'sans-serif'],
     },
   },
   plugins: [],

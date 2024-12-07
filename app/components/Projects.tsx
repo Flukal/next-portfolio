@@ -18,13 +18,15 @@ const Projects = () => {
   return (
     <section className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl text-accent uppercase font-bold mb-8">
+        <h2 className="text-3xl font-kaushan text-accent font-bold mb-8">
           Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectsArray.map((project, index) => (
             <Card key={index} title={project.title}>
-              <p className="text-muted text-sm mb-2">{project.description}</p>
+              <p className="text-muted font-sarala text-sm mb-2">
+                {project.description}
+              </p>
               <ul className="flex flex-wrap gap-3 list-none mb-10">
                 {project.techs.map((tech, index) => (
                   <li
