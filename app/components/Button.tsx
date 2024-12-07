@@ -5,7 +5,7 @@ interface ButtonProps {
   href: string;
   blank?: boolean;
   icon?: boolean;
-  variant: 'primary' | 'secondary' | 'default';
+  variant?: 'primary' | 'secondary';
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -28,7 +28,7 @@ const Button: React.FC<ButtonProps> = ({
       break;
     default:
       setVariant =
-        'text-accent hover:opacity-80 px-0 transition ease-in-out duration-200 shrink';
+        'text-accent hover:opacity-80 pl-0 pb-0 transition ease-in-out duration-200 shrink';
   }
 
   return (

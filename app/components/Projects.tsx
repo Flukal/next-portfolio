@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import projects from '../../public/data/projects.json';
 import Card from './Card';
 import ButtonGroup from './ButtonGroup';

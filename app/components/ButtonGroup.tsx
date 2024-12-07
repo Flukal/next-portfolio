@@ -4,7 +4,7 @@ interface ButtonProps {
   href: string;
   blank?: boolean;
   icon?: boolean;
-  variant: 'primary' | 'secondary' | 'default';
+  variant?: 'primary' | 'secondary';
 }
 
 interface ButtonGroupProps {

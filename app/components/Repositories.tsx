@@ -55,8 +55,8 @@ const Projects = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
           {reposData?.map((repo) => (
             <Card key={repo.id} title={repo.name} className="h-56">
-              <p className="text-muted text-sm mb-auto">{repo.description}</p>
-              <div className="flex items-center gap-2 mb-4">
+              <p className="text-muted text-sm mb-8">{repo.description}</p>
+              <div className="flex items-center gap-2 mb-1 mt-auto">
                 {repo.topics.map((topic, index) => (
                   <p
                     key={index}
@@ -71,7 +71,6 @@ const Projects = () => {
                 href={repo.html_url}
                 blank
                 icon={true}
-                variant="default"
               />
             </Card>
           ))}
