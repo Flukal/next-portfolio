@@ -1,0 +1,21 @@
+{
+  "title": "Hi, I’m Fulvio",
+  "subtitle": "Frontend Developer | Software Engineer | Berlin",
+  "description": "My main focus is usability and user experience and I love to develop customer centric applications built around clear and smooth user flows.",
+  "buttons": [
+    {
+      "label": "Github",
+      "href": "#github",
+      "blank": true,
+      "icon": false,
+      "variant": "primary"
+    },
+    {
+      "label": "Linkedin",
+      "href": "#linkedin",
+      "blank": true,
+      "icon": false,
+      "variant": "secondary"
+    }
+  ]
+}

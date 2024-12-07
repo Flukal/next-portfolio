@@ -1,0 +1,32 @@
+{
+  "Frontend": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Vue",
+    "Next.js",
+    "Nuxt.js",
+    "jQuery",
+    "TailwindCSS",
+    "SASS",
+    "BEM",
+    "CLS",
+    "Nuxt UI",
+    "Radix UI",
+    "Shadcn UI",
+    "Mobile-First Design"
+  ],
+  "Backend": [
+    "WordPress",
+    "Strapi",
+    "Storyblok",
+    "Node.js",
+    "MongoDB",
+    "GraphQL Apollo"
+  ],
+  "Development Tools": ["Git", "GitLab", "GitHub", "VS Code", "Gulp", "Vite"],
+  "UI/UX Design": ["Figma", "Adobe XD", "Affinity Photo", "Affinity Designer"],
+  "Project Management": ["Jira", "Confluence", "Timetool", "SCRUM"]
+}

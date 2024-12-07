@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Hypnobox",
+    "href": "https://hypnobox.de",
+    "description": "Hypnobox offers a mobile app designed to help users with self-hypnosis and personal development. The app provides a range of hypnosis sessions aimed at improving mental health, breaking habits, and enhancing well-being.",
+    "techs": ["Nuxtjs", "Wordpress", "Graphql", "TailwindCSS"],
+    "category": "Health & Wellness"
+  },
+  {
+    "title": "AlloyTester",
+    "href": "https://alloytester.com",
+    "description": "AlloyTester specializes in testing and analysis services for metal alloys. They provide high-quality inspection and material analysis, helping businesses ensure the quality and reliability of their materials in various industries, including manufacturing and construction.",
+    "techs": ["Nuxtjs", "Storyblok", "TailwindCSS"],
+    "category": "Industrial & Manufacturing"
+  },
+  {
+    "title": "Concentro",
+    "href": "https://www.concentro.de",
+    "description": "Concentro is a consulting firm that focuses on the development of medium-sized businesses. They offer services related to mergers, acquisitions, strategic development, and digital transformation, helping companies optimize their operations and grow sustainably.",
+    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "category": "Consulting & Business Development"
+  },
+  {
+    "title": "Med-Spezialisten",
+    "href": "https://med-spezialisten.de",
+    "description": "Med-Spezialisten is a medical service provider that connects patients with specialists. Their platform makes it easier to book consultations with top medical professionals in various fields, ensuring patients receive high-quality care tailored to their needs.",
+    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "category": "Healthcare"
+  },
+  {
+    "title": "Doc-Spezialisten",
+    "href": "https://doc-spezialisten.de",
+    "description": "Doc-Spezialisten GmbH is a healthcare company that specializes in providing access to specialized medical care. They facilitate patient connections with expert doctors in various medical disciplines, ensuring top-tier professional care and treatment options.",
+    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "category": "Healthcare"
+  },
+  {
+    "title": "Vilo Personal",
+    "href": "https://www.vilo-personal.de",
+    "description": "Vilo Personal is a recruitment agency that specializes in providing staffing solutions for businesses. They focus on matching qualified candidates with companies across various industries, ensuring a perfect fit for both employers and job seekers.",
+    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "category": "Recruitment & Staffing"
+  }
+]
