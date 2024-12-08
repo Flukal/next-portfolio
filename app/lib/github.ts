@@ -15,6 +15,7 @@ interface GitHubRepo {
   html_url: string;
   description: string;
   topics: string[];
+  created_at: string;
 }
 
 export const fetchGitHubUserData = async (username: string) => {
@@ -60,10 +61,15 @@ export const fetchGitHubUserData = async (username: string) => {
 
     const reposData: GitHubRepo[] = await reposResponse.json();
 
+    const sortedReposData = reposData.sort(
+      (a, b) =>
+        new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
+    );
+
     // Cache the fetched data
     const dataToCache = {
       userData,
-      reposData,
+      reposData: sortedReposData,
       timestamp: Date.now(),
     };
 

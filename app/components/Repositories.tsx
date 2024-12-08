@@ -12,6 +12,7 @@ interface GitHubRepo {
   html_url: string;
   description: string;
   topics: string[];
+  created_at: string;
 }
 
 const Projects = () => {
@@ -42,7 +43,6 @@ const Projects = () => {
   if (error) {
     return <div>{error}</div>;
   }
-
   return (
     <section
       id="repositories"

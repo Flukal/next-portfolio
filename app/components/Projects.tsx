@@ -21,6 +21,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectsArray.map((project, index) => (
             <Card key={index} title={project.title}>
+              <p className="text-accent text-sm mb-2">{project.category}</p>
               <p className="text-muted font-sarala text-sm mb-4">
                 {project.description}
               </p>
@@ -34,7 +35,7 @@ const Projects = () => {
                   </li>
                 ))}
               </ul>
-              <div>
+              <div className="flex flex-row justify-between items-end">
                 <Button
                   label="Visit Website"
                   href={project.href}
