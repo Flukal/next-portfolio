@@ -1,11 +1,10 @@
 import Card from './Card';
-import Skills from './Skills';
 import Headline from './Headline';
 const AboutMe = () => {
   return (
     <section id="about" className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
-        <Headline title="About Me" visual="h2" style="text-accent" />
+        <Headline title="About Me" visual="h3" style="text-accent" />
         <Card className="font-sarala text-md md:text-lg">
           <p className="mb-4">
             Hi, I’m <strong className="text-accent">Fulvio</strong>, a
@@ -29,7 +28,6 @@ const AboutMe = () => {
             with the needs of the project and the user.
           </p>
         </Card>
-        <Skills />
       </div>
     </section>
   );

@@ -36,7 +36,7 @@ const Button: React.FC<ButtonProps> = ({
       href={href}
       target={blank ? '_blank' : '_self'}
       rel="noopener noreferrer"
-      className={`px-5 py-2 font-semibold rounded-md text-md  ${
+      className={`px-5 py-2 font-semibold font-sarala rounded-md text-sm  ${
         setVariant ? setVariant : 'default'
       }`}
     >

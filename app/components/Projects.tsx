@@ -1,7 +1,7 @@
 import projects from '../../public/data/projects.json';
 import Card from './Card';
-import ButtonGroup from './ButtonGroup';
 import Headline from './Headline';
+import Button from './Button';
 // Define the Skill type
 interface Project {
   title: string;
@@ -18,7 +18,7 @@ const Projects = () => {
   return (
     <section className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
-        <Headline title="Projects" visual="h2" style="text-accent" />
+        <Headline title="Projects" visual="h3" style="text-accent" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectsArray.map((project, index) => (
             <Card key={index} title={project.title}>
@@ -35,24 +35,15 @@ const Projects = () => {
                   </li>
                 ))}
               </ul>
-              <ButtonGroup
-                buttons={[
-                  {
-                    label: 'Visit Website',
-                    href: project.href,
-                    blank: true,
-                    icon: false,
-                    variant: 'primary',
-                  },
-                  {
-                    label: 'Check Repository',
-                    href: project.href,
-                    blank: true,
-                    icon: false,
-                    variant: 'secondary',
-                  },
-                ]}
-              />
+              <div>
+                <Button
+                  label="Visit Website"
+                  href={project.href}
+                  blank={true}
+                  icon={false}
+                  variant="primary"
+                />
+              </div>
             </Card>
           ))}
         </div>

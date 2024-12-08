@@ -50,7 +50,7 @@ const Projects = () => {
       className="bg-background text-foreground py-section py-10"
     >
       <div className="max-w-5xl mx-auto px-4">
-        <Headline title="Repositories" visual="h2" style="text-accent" />
+        <Headline title="Repositories" visual="h3" style="text-accent" />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
           {reposData?.map((repo) => (
             <Card key={repo.id} title={repo.name} className="h-56">

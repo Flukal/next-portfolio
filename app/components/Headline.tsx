@@ -23,17 +23,17 @@ const Headline: FC<HeadlineProps> = ({
 }) => {
   // Tailwind styles for headings
   const visualStyling = {
-    h1: 'text-6xl lg:text-7xl font-bold',
-    h2: 'text-3xl lg:text-5xl font-bold',
-    h3: 'text-2xl lg:text-4xl font-bold',
-    h4: 'text-lg lg:text-xl font-regular',
-    h5: 'text-md lg:text-lg font-semibold',
-    h6: 'text-base lg:text-md font-semibold',
+    h1: 'text-5xl md:text-7xl font-bold',
+    h2: 'text-3xl md:text-5xl font-bold',
+    h3: 'text-3xl md:text-4xl font-bold',
+    h4: 'text-lg md:text-xl font-regular',
+    h5: 'text-md md:text-lg font-semibold',
+    h6: 'text-base md:text-md font-semibold',
   };
 
   return (
     <div
-      className={`flex mb-8 ${subtitleTop ? 'flex-col-reverse' : 'flex-col'}`}
+      className={`flex mb-6 ${subtitleTop ? 'flex-col-reverse' : 'flex-col'}`}
     >
       {/* Dynamic heading */}
       <Visual
