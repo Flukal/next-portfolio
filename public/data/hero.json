@@ -5,14 +5,14 @@
   "buttons": [
     {
       "label": "Github",
-      "href": "#github",
+      "href": "https://github.com/flukal",
       "blank": true,
       "icon": false,
       "variant": "primary"
     },
     {
       "label": "Linkedin",
-      "href": "#linkedin",
+      "href": "https://www.linkedin.com/in/fulviocalderone/",
       "blank": true,
       "icon": false,
       "variant": "secondary"

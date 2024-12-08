@@ -54,7 +54,7 @@ const Projects = () => {
           <div className="mb-8">
             <Button
               label="View All"
-              href="https://github.com/flukal"
+              href="https://github.com/Flukal?tab=repositories"
               blank={true}
               variant="secondary"
             />
