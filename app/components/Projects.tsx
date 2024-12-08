@@ -13,10 +13,9 @@ interface Project {
 
 const projectsArray: Project[] = projects;
 
-console.log(projects);
 const Projects = () => {
   return (
-    <section className="bg-background text-foreground py-10">
+    <section id="projects" className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
         <Headline title="Projects" visual="h3" style="text-accent" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">

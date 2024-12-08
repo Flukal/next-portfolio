@@ -25,7 +25,6 @@ const Projects = () => {
     const fetchData = async () => {
       const data = await fetchGitHubUserData(username);
       if (data) {
-        // setUserData(data.userData);
         setReposData(data.reposData);
       } else {
         setError('Failed to fetch GitHub data');
@@ -46,7 +45,7 @@ const Projects = () => {
 
   return (
     <section
-      id="projects"
+      id="repositories"
       className="bg-background text-foreground py-section py-10"
     >
       <div className="max-w-5xl mx-auto px-4">

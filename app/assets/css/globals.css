@@ -8,6 +8,8 @@
   --accent: #0ea5e9; /* A bright blue for highlights */
   --border: #e5e5e5; /* Light gray for borders */
   --muted: #6b7280; /* Muted text color */
+  --grayDark: #0b0b0b;
+  --grayLight: #1f1f1f;
 }
 
 @media (prefers-color-scheme: dark) {

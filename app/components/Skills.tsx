@@ -10,7 +10,7 @@ const skillsArray: Skills = skills;
 
 const Skills: React.FC = () => {
   return (
-    <section className="bg-background text-foreground py-10">
+    <section id="skills" className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
         <Headline title="Skills" visual="h3" style="text-accent" />
         <div className="grid grid-cols-2 grid-flow-row gap-2">

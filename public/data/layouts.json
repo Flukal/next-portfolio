@@ -5,19 +5,28 @@
     "links": [
       {
         "label": "Home",
-        "href": "#home"
+        "href": "#home",
+        "icon": "home"
       },
       {
         "label": "About",
-        "href": "#about"
+        "href": "#about",
+        "icon": "about"
+      },
+      {
+        "label": "Skills",
+        "href": "#skills",
+        "icon": "laptop"
       },
       {
         "label": "Projects",
-        "href": "#projects"
+        "href": "#projects",
+        "icon": "rocket"
       },
       {
         "label": "Repositories",
-        "href": "#repositories"
+        "href": "#repositories",
+        "icon": "github"
       }
     ]
   }
