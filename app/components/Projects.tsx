@@ -1,7 +1,7 @@
 import projects from '../../public/data/projects.json';
 import Card from './Card';
 import ButtonGroup from './ButtonGroup';
-
+import Headline from './Headline';
 // Define the Skill type
 interface Project {
   title: string;
@@ -18,16 +18,14 @@ const Projects = () => {
   return (
     <section className="bg-background text-foreground py-10">
       <div className="max-w-5xl mx-auto px-4">
-        <h2 className="text-3xl font-kaushan text-accent font-bold mb-8">
-          Projects
-        </h2>
+        <Headline title="Projects" visual="h2" style="text-accent" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectsArray.map((project, index) => (
             <Card key={index} title={project.title}>
-              <p className="text-muted font-sarala text-sm mb-2">
+              <p className="text-muted font-sarala text-sm mb-4">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-3 list-none mb-10">
+              <ul className="flex flex-wrap gap-3 list-none mb-10 mt-auto">
                 {project.techs.map((tech, index) => (
                   <li
                     key={index}

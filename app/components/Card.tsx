@@ -1,4 +1,5 @@
 import React from 'react';
+import Headline from './Headline';
 
 interface CardProps {
   title?: string;
@@ -12,9 +13,14 @@ const Card: React.FC<CardProps> = ({ title, children, className }) => {
     <div
       className={`flex flex-col h-full bg-grayDark shadow-lg rounded-lg p-6 ${checkClassName}`}
     >
-      <h3 className="text-lg font-poppins capitalize font-semibold mb-4">
-        {title}
-      </h3>
+      {title && (
+        <Headline
+          title={`${title}`}
+          visual="h5"
+          style="text-white"
+          font="font-poppins"
+        />
+      )}
       {children}
     </div>
   );
