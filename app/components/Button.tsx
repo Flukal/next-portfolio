@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
       break;
     case 'secondary':
       setVariant =
-        'bg-grayLight text-foreground outline outline-grayLight outline-2 shadow-grayLight hover:opacity-80 transition ease-in-out duration-200';
+        'bg-grayLight text-foreground outline outline-grayLight shadow-grayLight hover:opacity-80 transition ease-in-out duration-200';
       break;
     default:
       setVariant =

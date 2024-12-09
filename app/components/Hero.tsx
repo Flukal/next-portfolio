@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <p className="text-muted text-sm sm:text-md font-geist font-extralight mb-8">
           {hero.subtitle}
         </p>
-        <p className="text-white/90 text-md md:text-xl font-sarala max-w-2xl mb-6">
+        <p className="text-white/90 text-md md:text-lg font-sarala max-w-2xl mb-6">
           {hero.description}
         </p>
         <ButtonGroup buttons={hero.buttons as ButtonProps[]} />
