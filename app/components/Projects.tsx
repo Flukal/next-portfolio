@@ -21,11 +21,11 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
           {projectsArray.map((project, index) => (
             <Card key={index} title={project.title}>
-              <p className="text-accent text-sm mb-2">{project.category}</p>
-              <p className="text-muted font-sarala text-sm mb-4">
+              <p className="text-accent text-sm mb-4">{project.category}</p>
+              <p className="text-muted font-sarala text-sm mb-12">
                 {project.description}
               </p>
-              <ul className="flex flex-wrap gap-3 list-none mb-10 mt-auto">
+              <ul className="flex flex-wrap gap-3 list-none mb-8 mt-auto">
                 {project.techs.map((tech, index) => (
                   <li
                     key={index}

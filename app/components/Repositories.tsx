@@ -66,7 +66,7 @@ const Projects = () => {
               <p className="text-muted font-sarala text-sm mb-8">
                 {repo.description}
               </p>
-              <div className="flex items-center gap-2 mb-1 mt-auto">
+              <div className="flex items-center gap-2 mb-4 mt-auto">
                 {repo.topics.map((topic, index) => (
                   <p
                     key={index}
