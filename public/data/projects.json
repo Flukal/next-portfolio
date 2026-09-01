@@ -2,43 +2,74 @@
   {
     "title": "Hypnobox",
     "href": "https://hypnobox.de",
-    "description": "Hypnobox offers a mobile app designed to help users with self-hypnosis and personal development. The app provides a range of hypnosis sessions aimed at improving mental health, breaking habits, and enhancing well-being.",
-    "techs": ["Nuxtjs", "Wordpress", "Graphql", "TailwindCSS"],
+    "description": "Frontend development for the Hypnobox web platform, built with Nuxt.js and Tailwind CSS and integrated with a Headless WordPress and WooCommerce backend through GraphQL. My work included implementing responsive user interfaces and reusable frontend components, as well as supporting the e-commerce experience, including product flows and the shopping cart. The external payment integration was handled primarily by the project team manager.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "WordPress", "WooCommerce", "GraphQL"],
     "category": "Health & Wellness"
   },
+
+  {
+    "title": "Testberichte.de",
+    "href": "https://www.testberichte.de",
+    "description": "Worked as a Frontend Developer on one of Germany's largest independent consumer portals. My work included implementing a new mobile-first sticky navigation and developing approximately 80% of the elements displayed on the homepage. I also contributed to resolving frontend issues, maintaining frontend standards and improving performance and Core Web Vitals, including CLS optimization. In collaboration with designers and QA testers, I supported A/B testing of components, CTAs and affiliate advertisements to evaluate different variants and their performance.",
+    "techs": [
+      "HTML",
+      "CSS",
+      "SCSS",
+      "JavaScript",
+      "jQuery",
+      "JavaServer Pages",
+      "BEM",
+      "Gulp",
+      "Jenkins"
+    ],
+    "category": "Consumer Platform"
+  },
+
   {
     "title": "AlloyTester",
     "href": "https://alloytester.com",
-    "description": "AlloyTester specializes in testing and analysis services for metal alloys. They provide high-quality inspection and material analysis, helping businesses ensure the quality and reliability of their materials in various industries, including manufacturing and construction.",
-    "techs": ["Nuxtjs", "Storyblok", "TailwindCSS"],
+    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with Storyblok as a Headless CMS. The project involved translating design requirements into responsive frontend interfaces and working within a component-based architecture.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "Storyblok"],
     "category": "Industrial & Manufacturing"
   },
+
   {
     "title": "Concentro",
-    "href": "https://www.concentro.de",
-    "description": "Concentro is a consulting firm that focuses on the development of medium-sized businesses. They offer services related to mergers, acquisitions, strategic development, and digital transformation, helping companies optimize their operations and grow sustainably.",
-    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
-    "category": "Consulting & Business Development"
+    "href": "https://concentro.de",
+    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with Storyblok as a Headless CMS. The project was built using a shared frontend template that was adapted to the client's requirements through custom styling and CSS changes, while also implementing components with project-specific visual variations.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "Storyblok"],
+    "category": "Business & Consulting"
   },
+
   {
     "title": "Med-Spezialisten",
     "href": "https://med-spezialisten.de",
-    "description": "Med-Spezialisten is a medical service provider that connects patients with specialists. Their platform makes it easier to book consultations with top medical professionals in various fields, ensuring patients receive high-quality care tailored to their needs.",
-    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with a Headless WordPress backend. The project involved adapting a shared frontend template to the client's visual requirements, implementing responsive layouts and adjusting styling and components to match the project's design.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "Headless WordPress"],
     "category": "Healthcare"
   },
+
   {
     "title": "Doc-Spezialisten",
     "href": "https://doc-spezialisten.de",
-    "description": "Doc-Spezialisten GmbH is a healthcare company that specializes in providing access to specialized medical care. They facilitate patient connections with expert doctors in various medical disciplines, ensuring top-tier professional care and treatment options.",
-    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with a Headless WordPress backend. The project was based on a shared frontend template and adapted through CSS and styling changes, with component variations implemented to reflect the visual requirements of the website.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "Headless WordPress"],
     "category": "Healthcare"
   },
+
   {
     "title": "Vilo Personal",
-    "href": "https://www.vilo-personal.de",
-    "description": "Vilo Personal is a recruitment agency that specializes in providing staffing solutions for businesses. They focus on matching qualified candidates with companies across various industries, ensuring a perfect fit for both employers and job seekers.",
-    "techs": ["Nuxtjs", "Wordpress", "TailwindCSS"],
+    "href": "https://vilo-personal.de",
+    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with a Headless WordPress backend. The website was built from a shared frontend template and customized for the project through responsive styling, CSS adjustments and component-specific visual variations.",
+    "techs": ["Nuxt.js", "Tailwind CSS", "Headless WordPress"],
     "category": "Recruitment & Staffing"
+  },
+
+  {
+    "title": "Pizza Courses",
+    "href": "https://www.pizzacourses.com",
+    "description": "Built and delivered a responsive WordPress website for an independent pizza consulting business. The project was developed from implementation to final delivery using WordPress and the Divi visual page builder.",
+    "techs": ["WordPress", "Divi"],
+    "category": "Food & Consulting"
   }
 ]

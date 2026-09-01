@@ -4,28 +4,48 @@
     "CSS3",
     "JavaScript",
     "TypeScript",
-    "React",
-    "Vue",
-    "Next.js",
+    "Vue.js",
     "Nuxt.js",
-    "jQuery",
-    "TailwindCSS",
-    "SASS",
-    "BEM",
-    "CLS",
-    "Nuxt UI",
-    "Radix UI",
-    "Shadcn UI",
-    "Mobile-First Design"
+    "React",
+    "Next.js",
+    "JavaServer Pages (JSP)"
   ],
-  "Headless CMS & APIs": [
+  "Styling & Architecture": [
+    "Tailwind CSS",
+    "Nuxt UI",
+    "BEM",
+    "Mobile-First",
+    "Component-Based Development"
+  ],
+  "Headless & APIs": [
     "WordPress",
+    "Advanced Custom Fields",
     "Strapi",
     "Storyblok",
-    "GraphQL",
-    "REST APIs"
+    "REST APIs",
+    "GraphQL"
   ],
-  "Development Tools": ["Git", "GitLab", "GitHub", "VS Code", "Gulp", "Vite"],
-  "Design & UI": ["Figma", "Adobe XD"],
-  "Project Management": ["Jira", "Confluence", "Timetool", "SCRUM"]
+  "Testing & Quality": [
+    "Jest",
+    "Component Testing",
+    "Code Reviews",
+    "Pair Programming"
+  ],
+  "Performance & Experimentation": [
+    "Core Web Vitals",
+    "CLS",
+    "Frontend Performance Optimization",
+    "A/B Testing"
+  ],
+  "Tooling & Workflow": [
+    "Git",
+    "GitLab",
+    "GitHub",
+    "Jenkins",
+    "Gulp",
+    "Jira",
+    "Confluence",
+    "Scrum"
+  ],
+  "Design & UI": ["Figma", "Design-to-Code Collaboration"]
 }

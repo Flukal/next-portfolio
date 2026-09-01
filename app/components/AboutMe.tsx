@@ -8,24 +8,35 @@ const AboutMe = () => {
         <Headline title="About Me" visual="h3" style="text-accent" />
         <Card className="font-sarala text-md md:text-lg">
           <p className="mb-4">
-            Hi, I’m <strong className="text-accent">Fulvio</strong>, a Web
-            Frontend Developer crafting functional and user-friendly web
-            interfaces. I love bringing designs to life and creating seamless
-            digital experiences that resonate with users.
+            I&apos;m a{' '}
+            <strong className="text-accent">Frontend Developer</strong> with
+            professional experience building websites and web applications using
+            JavaScript, TypeScript and component-based frontend frameworks.
           </p>
           <p className="mb-4">
-            Throughout my career, I’ve worked with modern tools and frameworks
-            like <strong className="text-accent">Vue.js</strong>,{' '}
-            <strong className="text-accent">Nuxt.js</strong>,
-            <strong className="text-accent">Next.js</strong>,{' '}
-            <strong className="text-accent">TypeScript</strong>, and{' '}
-            <strong className="text-accent">Tailwind CSS</strong>, while
-            integrating frontends with backend systems such as{' '}
-            <strong className="text-accent">WordPress</strong>,{' '}
-            <strong className="text-accent">Strapi</strong>, and{' '}
-            <strong className="text-accent">Storyblok</strong>. My focus is
-            always on delivering clean, efficient, and scalable code that aligns
-            with the needs of the project and the user.
+            Throughout my professional experience, I have worked with{' '}
+            <strong className="text-accent">Vue.js</strong> and
+            <strong className="text-accent">Nuxt.js</strong>, as well as{' '}
+            <strong className="text-accent">React</strong> and{' '}
+            <strong className="text-accent">Next.js</strong>, building
+            responsive interfaces and integrating frontend applications with
+            Headless CMS platforms and backend services through REST APIs and
+            GraphQL.
+          </p>
+          <p className="mb-4">
+            I enjoy bridging design and development, with a strong focus on
+            usability, clean implementation and user experience. I have also
+            worked on frontend performance,{' '}
+            <strong className="text-accent">Core Web Vitals</strong>,{' '}
+            <strong className="text-accent">component testing</strong> and{' '}
+            <strong className="text-accent">A/B testing</strong> in
+            collaboration with designers and QA teams.
+          </p>
+          <p className="mb-4">
+            I&apos;m currently focused on continuing to grow as a{' '}
+            <strong className="text-accent">Frontend Developer</strong> while
+            keeping my skills up to date with modern frontend technologies and
+            development practices.{' '}
           </p>
         </Card>
       </div>
