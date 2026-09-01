@@ -1,7 +1,7 @@
+import type { ReactElement } from 'react';
 import hero from '../../public/data/hero.json';
 import ButtonGroup from './ButtonGroup';
-import React from 'react';
-// import Headline from './Headline';
+
 interface ButtonProps {
   label: string;
   href: string;
@@ -10,7 +10,7 @@ interface ButtonProps {
   variant: 'primary' | 'secondary';
 }
 
-const Hero: React.FC = () => {
+const Hero = (): ReactElement => {
   return (
     <section className="bg-background text-foreground h-[500px] flex items-center">
       <div className="max-w-5xl mx-auto px-4 w-full">

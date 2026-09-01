@@ -1,5 +1,6 @@
 import Card from './Card';
 import Headline from './Headline';
+
 const AboutMe = () => {
   return (
     <section id="about" className="bg-background text-foreground py-10">
@@ -7,11 +8,10 @@ const AboutMe = () => {
         <Headline title="About Me" visual="h3" style="text-accent" />
         <Card className="font-sarala text-md md:text-lg">
           <p className="mb-4">
-            Hi, I’m <strong className="text-accent">Fulvio</strong>, a
-            passionate Web Frontend Developer with over four years of experience
-            crafting functional and user-friendly web interfaces. I love
-            bringing designs to life and creating seamless digital experiences
-            that resonate with users.
+            Hi, I’m <strong className="text-accent">Fulvio</strong>, a Web
+            Frontend Developer crafting functional and user-friendly web
+            interfaces. I love bringing designs to life and creating seamless
+            digital experiences that resonate with users.
           </p>
           <p className="mb-4">
             Throughout my career, I’ve worked with modern tools and frameworks

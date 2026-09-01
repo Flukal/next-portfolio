@@ -18,15 +18,14 @@
     "Shadcn UI",
     "Mobile-First Design"
   ],
-  "Backend": [
+  "Headless CMS & APIs": [
     "WordPress",
     "Strapi",
     "Storyblok",
-    "Node.js",
-    "MongoDB",
-    "GraphQL Apollo"
+    "GraphQL",
+    "REST APIs"
   ],
   "Development Tools": ["Git", "GitLab", "GitHub", "VS Code", "Gulp", "Vite"],
-  "UI/UX Design": ["Figma", "Adobe XD", "Affinity Photo", "Affinity Designer"],
+  "Design & UI": ["Figma", "Adobe XD"],
   "Project Management": ["Jira", "Confluence", "Timetool", "SCRUM"]
 }
