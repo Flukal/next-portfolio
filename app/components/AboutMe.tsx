@@ -15,7 +15,7 @@ const AboutMe = () => {
           </p>
           <p className="mb-4">
             Throughout my professional experience, I have worked with{' '}
-            <strong className="text-accent">Vue.js</strong> and
+            <strong className="text-accent">Vue.js</strong> and{' '}
             <strong className="text-accent">Nuxt.js</strong>, as well as{' '}
             <strong className="text-accent">React</strong> and{' '}
             <strong className="text-accent">Next.js</strong>, building

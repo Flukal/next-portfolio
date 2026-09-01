@@ -2,7 +2,7 @@
   {
     "title": "Hypnobox",
     "href": "https://hypnobox.de",
-    "description": "Frontend development for the Hypnobox web platform, built with Nuxt.js and Tailwind CSS and integrated with a Headless WordPress and WooCommerce backend through GraphQL. My work included implementing responsive user interfaces and reusable frontend components, as well as supporting the e-commerce experience, including product flows and the shopping cart. The external payment integration was handled primarily by the project team manager.",
+    "description": "Frontend development for the Hypnobox web platform, built with Nuxt.js and Tailwind CSS and integrated with a Headless WordPress and WooCommerce backend through GraphQL. My work included implementing responsive user interfaces and reusable frontend components, as well as supporting the e-commerce experience, including product flows and the shopping cart.",
     "techs": ["Nuxt.js", "Tailwind CSS", "WordPress", "WooCommerce", "GraphQL"],
     "category": "Health & Wellness"
   },
@@ -28,7 +28,7 @@
   {
     "title": "AlloyTester",
     "href": "https://alloytester.com",
-    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with Storyblok as a Headless CMS. The project involved translating design requirements into responsive frontend interfaces and working within a component-based architecture.",
+    "description": "Developed responsive frontend interfaces for a corporate website using Nuxt.js and Tailwind CSS, integrated with Storyblok as a Headless CMS. The project involved translating design requirements into responsive frontend interfaces and working within a component-based architecture.",
     "techs": ["Nuxt.js", "Tailwind CSS", "Storyblok"],
     "category": "Industrial & Manufacturing"
   },
@@ -36,7 +36,7 @@
   {
     "title": "Concentro",
     "href": "https://concentro.de",
-    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with Storyblok as a Headless CMS. The project was built using a shared frontend template that was adapted to the client's requirements through custom styling and CSS changes, while also implementing components with project-specific visual variations.",
+    "description": "Built and adapted the frontend of a corporate website using Nuxt.js, Tailwind CSS and Storyblok as a Headless CMS. The project was built using a shared frontend template that was adapted to the client's requirements through custom styling and CSS changes, while also implementing components with project-specific visual variations.",
     "techs": ["Nuxt.js", "Tailwind CSS", "Storyblok"],
     "category": "Business & Consulting"
   },
@@ -44,7 +44,7 @@
   {
     "title": "Med-Spezialisten",
     "href": "https://med-spezialisten.de",
-    "description": "Frontend development for a corporate website using Nuxt.js and Tailwind CSS, integrated with a Headless WordPress backend. The project involved adapting a shared frontend template to the client's visual requirements, implementing responsive layouts and adjusting styling and components to match the project's design.",
+    "description": "Implemented and adapted the frontend of a corporate website using Nuxt.js and Tailwind CSS, integrated with a Headless WordPress backend. The project involved adapting a shared frontend template to the client's visual requirements, implementing responsive layouts and adjusting styling and components to match the project's design.",
     "techs": ["Nuxt.js", "Tailwind CSS", "Headless WordPress"],
     "category": "Healthcare"
   },
